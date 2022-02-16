@@ -2,15 +2,18 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+    mode: 'development',
+
     entry: './src/index.js',
 
     devServer: {
         static: './dist',
-      },
+    },
 
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html'
+            filename: 'index.html',
+            template: path.resolve(__dirname, './src/levy.html'),
         }),
     ],
     output: {
@@ -19,11 +22,9 @@ module.exports = {
         clean: true,
     },
     module: {
-        rules: [
-          {
+        rules: [{
             test: /\.css$/i,
             use: ['style-loader', 'css-loader'],
-          },
-        ],
-      },
+        }, ],
+    },
 };

@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books Project
+# Project Title
 
-> A web app to add your books in a digital shelf. This webapp is built with vanila javascript. A local storage option is added with this project, so that a user can store data in this is web app. 
+> Project description
 
-![screenshot](./assets/images/1.png)
+![screenshot]()
 
 Additional description about the project and its features.
 
@@ -12,80 +12,34 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
-- JS
+- Javascript
 - Git
-
-## Live Demo
-
-[Live Demo Link](https://vikipretium.github.io/AwesomeBooks-es6/)
-
-## Built With
-
-- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
-- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
-- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
-
-To get a local copy up and running follow these simple example steps
-
-### Prerequisites
-
-The basic requirements for building the executable are:
-
-- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
-- VSCode or any other equivalent code editor
-- Node Package Manager (For running, debuging, or installing dependancies to be used)
-
-<br>
-<br>
+- npm
+- webpack
 
 # Setup WebApp
 
 #### Cloning the project
 
 ```
-git clone https://github.com/vikipretium/awesome-books-project.git 
+git clone your_project_url
 ```
 
-## Getting packages and debuging with Stylelint
+## Usage
+
+To build the project run:
 
 ```
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+$ npm install
+$ npm run build
 ```
 
-##### For validation detection using Stylelint Run
+## Development
+
+In development environment use the following command:
 
 ```
-npx stylelint "**/*.{css,scss}"
-```
-
-##### from parent source directory
-
-## Getting packages and debuging with Webhint
-
-```
-npm init -y
-npm install --save-dev hint@6.x
-```
-
-##### For validation detection using Webhint Run
-
-```
-npx hint .
-```
-
-## Getting packages and debuging with Eslint
-
-```
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-
-```
-
-##### For validation detection using Eslint Run
-
-```
-
-npx eslint .
-
+$ npm run dev
 ```
 
 ## Author

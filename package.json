@@ -4,12 +4,10 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
   "scripts": {
-
     "dev": "webpack serve --open --mode=development",
     "start": "webpack serve --open",
     "build": "webpack",
     "lint": "npx eslint . --fix; npx stylelint \"**/*.{css,scss}\" --fix; npx hint ."
-
   },
   "repository": {
     "type": "git",
@@ -23,6 +21,7 @@
   },
   "homepage": "https://github.com/vikipretium/webpack-template#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.6.0",
     "eslint": "^7.32.0",

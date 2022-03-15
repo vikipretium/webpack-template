@@ -31,7 +31,7 @@ To build the project run:
 
 ```
 npm install
-npm start
+npm run build
 ```
 
 ## Development

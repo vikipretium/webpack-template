@@ -12,7 +12,7 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
-- Javascriptn
+- Javascript
 - Git
 - npm
 - webpack
@@ -30,8 +30,8 @@ git clone your_project_url
 To build the project run:
 
 ```
-$ npm install
-$ npm run build
+npm install
+npm start
 ```
 
 ## Development
@@ -39,7 +39,13 @@ $ npm run build
 In development environment use the following command:
 
 ```
-$ npm run dev
+npm start
+```
+
+## Testing
+
+```
+npm watch
 ```
 
 ## Author
